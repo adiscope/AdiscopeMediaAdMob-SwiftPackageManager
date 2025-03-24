@@ -1,0 +1,1 @@
+# AdiscopeMediaAdMob-SwiftPackageManager
