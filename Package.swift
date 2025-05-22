@@ -34,8 +34,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaAdMob",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/AdiscopeMediaAdMob.zip",
-            checksum: "ad113b4a0be7aad9b2978c484dd50edcc294a0915d875ef8989a132e1666cdfd"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.3.0/AdiscopeMediaAdMob.zip",
+            checksum: "bcb7ec28df96d77fb0849b1aea092a79eff38deecfce3013d8f13cd7353161f4"
         ),
         .binaryTarget(
             name: "LiftoffMonetizeAdapter",
