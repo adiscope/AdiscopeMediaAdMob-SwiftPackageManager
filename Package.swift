@@ -34,23 +34,23 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaAdMob",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.3.0/AdiscopeMediaAdMob.zip",
-            checksum: "bcb7ec28df96d77fb0849b1aea092a79eff38deecfce3013d8f13cd7353161f4"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/AdiscopeMediaAdMob.zip",
+            checksum: "3e3c1c58c10b5ff40318e2cdc04d6fd3a9cf16fcf8712808e4000288d11a8248"
         ),
         .binaryTarget(
             name: "LiftoffMonetizeAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/LiftoffMonetizeAdapter.xcframework.zip",
-            checksum: "530353e53f05c11c570b2588c74156c6bd477e4e2b103dad3d0b4c07d78f2e47"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/LiftoffMonetizeAdapter.xcframework.zip",
+            checksum: "c1ffac2aa0b2cae8ba95a728a5021a595560bd778feb5f677e7b428006df7f95"
         ),
         .binaryTarget(
             name: "MintegralAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/MintegralAdapter.xcframework.zip",
-            checksum: "bd799aa8af772cc2bccc475ca52204248a76e4d25b97746734a6a51a716c06a4"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/MintegralAdapter.xcframework.zip",
+            checksum: "fcaf1162b25f13d7702e32c275a982cf351fe08f03ae1d2cdd439785450c76c2"
         ),
         .binaryTarget(
             name: "PangleAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/PangleAdapter.xcframework.zip",
-            checksum: "0ffa8c7edfa440f622be0008cf2b667aa8e9c4c00b58f66cb799112b37c3d857"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/PangleAdapter.xcframework.zip",
+            checksum: "1be26ec128709635a34fde68a09f582ae2c4cc01dab5b16a23bc429c158687f9"
         ),
     ]
 )
