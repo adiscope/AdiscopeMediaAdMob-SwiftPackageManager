@@ -12,10 +12,10 @@ let package = Package(
             targets: ["AdiscopeMediaAdMobTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "12.2.0"),
-        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.4.4"),
-        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "7.7.7"),
-        .package(url: "https://github.com/adiscope/Adiscope-iOS-Pangle.git", exact: "4.2.1"),
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "12.11.0"),
+        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.5.2"),
+        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "7.7.9"),
+        .package(url: "https://github.com/bytedance/AdsGlobalPackage.git", exact: "7.4.1-release.1"),
     ],
     targets: [
         .target(
@@ -28,29 +28,29 @@ let package = Package(
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
                 .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager"),
                 .product(name: "MintegralAdSDK", package: "MintegralAdSDK-Swift-Package"),
-                .product(name: "AdiscopeWithPangle", package: "Adiscope-iOS-Pangle"),
+                .product(name: "AdsGlobalPackage", package: "AdsGlobalPackage"),
             ],
             path: "Sources"
         ),
         .binaryTarget(
             name: "AdiscopeMediaAdMob",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/AdiscopeMediaAdMob.zip",
-            checksum: "3e3c1c58c10b5ff40318e2cdc04d6fd3a9cf16fcf8712808e4000288d11a8248"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AdiscopeMediaAdMob.zip",
+            checksum: "afd0583bfa7c6c02362ac78cea9e8c5ab5e5efdf84fa8e396aae5e938e8eb65b"
         ),
         .binaryTarget(
             name: "LiftoffMonetizeAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/LiftoffMonetizeAdapter.xcframework.zip",
-            checksum: "c1ffac2aa0b2cae8ba95a728a5021a595560bd778feb5f677e7b428006df7f95"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/LiftoffMonetizeAdapter.xcframework.zip",
+            checksum: "22e5bbffbb74ba3db90d281ce137c42d7487a53442903c2751ab755936132d03"
         ),
         .binaryTarget(
             name: "MintegralAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/MintegralAdapter.xcframework.zip",
-            checksum: "fcaf1162b25f13d7702e32c275a982cf351fe08f03ae1d2cdd439785450c76c2"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/MintegralAdapter.xcframework.zip",
+            checksum: "4b71bb4b580900b9123c0ca354472374004d5343f7caf071336d5c3d655543d8"
         ),
         .binaryTarget(
             name: "PangleAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/PangleAdapter.xcframework.zip",
-            checksum: "1be26ec128709635a34fde68a09f582ae2c4cc01dab5b16a23bc429c158687f9"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/PangleAdapter.xcframework.zip",
+            checksum: "f643f912f13524a1dd898263e7b1ee3d3362a6395ca39ef056855497cc7b8ad8"
         ),
     ]
 )
